@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">KAI JKT - BDG</string>
+    <string name="app_name">LIST LAPTOP</string>
+    <string name="tambah_laptop">Tambah Laptop</string>
+    <string name="nama_laptop">Nama Laptop</string>
+    <string name="processor">Processor</string>
+    <string name="GPU">GPU</string>
+    <string name="harga">Harga</string>
+    <string name="simpan">Simpan</string>
+    <string name="kembali">Kembali</string>
+    <string name="edit_laptop">Ubah Laptop</string>
 </resources>
