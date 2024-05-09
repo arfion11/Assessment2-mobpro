@@ -2,6 +2,7 @@ package org.d3if0072.assessment2mobpro.ui.screen
 
 import android.content.res.Configuration
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -122,6 +123,11 @@ fun ScreenContent(showList: Boolean, modifier: Modifier, navController: NavHostC
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(text = stringResource(id = R.string.list_kosong))
+            Image(
+                painter = painterResource(id = R.drawable.empty),
+                contentDescription = null,
+                modifier = Modifier.padding(16.dp)
+            )
         }
     }
     else{
