@@ -10,7 +10,6 @@
     <string name="edit_laptop">Ubah Laptop</string>
     <string name="tersedia">TERSEDIA</string>
     <string name="habis">HABIS</string>
-    <string name="merk">Pilih Brand</string>
     <string name="lainya">Lainya</string>
     <string name="list_kosong">List Laptop Kosong</string>
     <string name="hapus">Hapus Laptop</string>
@@ -19,5 +18,5 @@
     <string name="tombol_batal">Batal</string>
     <string name="list">"Tampilan list"</string>
     <string name="grid">"Tampilan grid"</string>
-    <string name="invalid">Nama, Processor, Gpu, dan Stok Harus di Isi!</string>
+    <string name="invalid">Nama, Processor, Gpu, dan Stok <b>HARUS DI ISI!</b></string>
 </resources>
