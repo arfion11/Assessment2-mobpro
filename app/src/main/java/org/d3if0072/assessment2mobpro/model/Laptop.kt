@@ -7,10 +7,8 @@ import androidx.room.PrimaryKey
 data class Laptop(
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0L,
-    val list: String,
     val nama: String,
     val processor: String,
     val gpu: String,
-    val int: String
-
+    val stok: String,
 )
